@@ -14,6 +14,7 @@
 		0528C47F22F3460F002248B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0528C47D22F3460F002248B9 /* LaunchScreen.storyboard */; };
 		0528C48722F34672002248B9 /* YelpAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0528C48622F34672002248B9 /* YelpAPIClient.swift */; };
 		0528C48922F34697002248B9 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0528C48822F34697002248B9 /* Business.swift */; };
+		0528C48B22F351E7002248B9 /* SecretKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0528C48A22F351E7002248B9 /* SecretKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0528C48022F3460F002248B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0528C48622F34672002248B9 /* YelpAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAPIClient.swift; sourceTree = "<group>"; };
 		0528C48822F34697002248B9 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		0528C48A22F351E7002248B9 /* SecretKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				0528C47822F3460B002248B9 /* Main.storyboard */,
 				0528C48622F34672002248B9 /* YelpAPIClient.swift */,
 				0528C48822F34697002248B9 /* Business.swift */,
+				0528C48A22F351E7002248B9 /* SecretKeys.swift */,
 				0528C47B22F3460F002248B9 /* Assets.xcassets */,
 				0528C47D22F3460F002248B9 /* LaunchScreen.storyboard */,
 				0528C48022F3460F002248B9 /* Info.plist */,
@@ -145,6 +148,7 @@
 				0528C48922F34697002248B9 /* Business.swift in Sources */,
 				0528C47522F3460B002248B9 /* AppDelegate.swift in Sources */,
 				0528C48722F34672002248B9 /* YelpAPIClient.swift in Sources */,
+				0528C48B22F351E7002248B9 /* SecretKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

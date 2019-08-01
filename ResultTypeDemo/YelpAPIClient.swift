@@ -24,7 +24,7 @@ class YelpAPIClient {
             return
         }
         var request = URLRequest(url: url)
-        let accessToken = "T9D8IG3A-ypF6A3XGellgwYQpmcNYAXNc1EWjTNdv59q6lwVZ82ZCNl0ZFlI93iRvQaDjskzWhprA5On-6_4HppxOWfSaiorit7TqdRyUskzBbJjcjqZkGGMmv1CXXYx"
+        let accessToken = SecretKeys.YelpAPIKey
         request.setValue("Bearer \(accessToken)", forHTTPHeaderField: "Authorization")
         let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
             if let error = error {
